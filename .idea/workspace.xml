@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63014f92-171d-4ea5-971d-da8d6eb5e95e" name="Changes" comment="added grapher2">
-      <change afterPath="$PROJECT_DIR$/AEC_grapher3.py" afterDir="false" />
+    <list default="true" id="63014f92-171d-4ea5-971d-da8d6eb5e95e" name="Changes" comment="run AEC_grapher3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AEC_grapher_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AEC_grapher_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AEC_grapher.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,12 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1780648161071</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="run AEC_grapher3">
+      <option name="closed" value="true" />
+      <created>1780649792535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1780649792535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added grapher" />
     <MESSAGE value="added grapher2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added grapher2" />
+    <MESSAGE value="run AEC_grapher3" />
+    <option name="LAST_COMMIT_MESSAGE" value="run AEC_grapher3" />
   </component>
 </project>
