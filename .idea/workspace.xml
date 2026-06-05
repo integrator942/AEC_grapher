@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63014f92-171d-4ea5-971d-da8d6eb5e95e" name="Changes" comment="added grapher">
-      <change afterPath="$PROJECT_DIR$/AEC_grapher_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AEC_grapher_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AEC_grapher.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="63014f92-171d-4ea5-971d-da8d6eb5e95e" name="Changes" comment="added grapher2">
+      <change afterPath="$PROJECT_DIR$/AEC_grapher3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AEC_grapher.py" beforeDir="false" afterPath="$PROJECT_DIR$/AEC_grapher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AEC_grapher_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AEC_grapher_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.AEC_grapher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AEC_grapher_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AEC_grapher_3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.AEC_grapher.executor": "Run",
+    "Python.AEC_grapher3.executor": "Run",
+    "Python.AEC_grapher_2.executor": "Run",
+    "Python.AEC_grapher_3.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,11 +81,20 @@
       <option name="project" value="LOCAL" />
       <updated>1780563229212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added grapher2">
+      <option name="closed" value="true" />
+      <created>1780648161071</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780648161071</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added grapher" />
-    <option name="LAST_COMMIT_MESSAGE" value="added grapher" />
+    <MESSAGE value="added grapher2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added grapher2" />
   </component>
 </project>
