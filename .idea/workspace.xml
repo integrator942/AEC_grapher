@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63014f92-171d-4ea5-971d-da8d6eb5e95e" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/AEC_10mm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AEC_18mm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xls_converter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AEC_grapher3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AEC_5mm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AEC_grapher_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AEC_grapher.py" afterDir="false" />
-    </list>
+    <list default="true" id="63014f92-171d-4ea5-971d-da8d6eb5e95e" name="Changes" comment="added 18mm and 10 mm&#10;added xls_converter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780656694063</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added 18mm and 10 mm&#10;added xls_converter">
+      <option name="closed" value="true" />
+      <created>1781169277831</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1781169277831</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -120,6 +121,7 @@
     <MESSAGE value="added grapher2" />
     <MESSAGE value="run AEC_grapher3" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="added 18mm and 10 mm&#10;added xls_converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 18mm and 10 mm&#10;added xls_converter" />
   </component>
 </project>
