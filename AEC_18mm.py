@@ -5,22 +5,22 @@ import matplotlib.pyplot as plt
 # Исходные данные
 data = {
     100: {
-        'мАс': [0.1, 0.2, 0.32, 0.4, 0.63, 0.8, 1.25],
-        'IQF': [3.33, 5.67, 6.39, 6.92, 7.44, 7.79, 8.17],
-        'Яркость': [390, 706, 1091, 1361, 2112, 2667, 4160],
-        'Доза': [1.64, 3.15, 5, 6.2, 10, 12.2, 19.5]
+        'мАс': [2.0, 4.0, 6.3, 8.0, 12.5, 16.0, 25.0],
+        'IQF': [2.86, 4.56, 5.99, 5.97, 7.05, 7.45, 7.48],
+        'Яркость': [635.0, 1181.0, 1838.0, 2280.0, 3544.0, 4483.0, 6973.0],
+        'Доза': [30.3, 60.7, 97.3, 120.0, 192.0, 237.0, 368.0]
     },
     110: {
-        'мАс': [0.1, 0.16, 0.25, 0.32, 0.5, 0.63, 1],
-        'IQF': [3.9, 5.11, 6.55, 6.97, 7.64, 7.73, 8.25],
-        'Яркость': [487, 736, 1106, 1412, 2161, 2726, 4315],
-        'Доза': [2, 3.07, 4.69, 5.93, 9.51, 11.7, 18.4]
+        'мАс': [1.25, 2.5, 4.0, 5.0, 8.0, 10.0, 16.0],
+        'IQF': [2.65, 4.36, 5.43, 5.66, 6.5, 6.67, 7.56],
+        'Яркость': [574.0, 1051.0, 1626.0, 2020.0, 3180.0, 3967.0, 6305.0],
+        'Доза': [22.7, 45.0, 72.0, 90.0, 143.0, 179.0, 281.0]
     },
     120: {
-        'мАс': [0.1, 0.125, 0.2, 0.25, 0.4, 0.5, 0.8],
-        'IQF': [4.87, 4.95, 6.15, 6.84, 7.36, 7.74, 8.23],
-        'Яркость': [603, 736, 1120, 1376, 2172, 2724, 4315],
-        'Доза': [2.4, 2.93, 4.47, 5.53, 8.65, 10.6, 27.7]
+        'мАс': [1.0, 2.0, 3.2, 4.0, 6.3, 8.0, 12.5],
+        'IQF': [2.06, 3.79, 4.89, 5.01, 6.37, 6.6, 7.08],
+        'Яркость': [601.0, 1111.0, 1731.0, 2147.0, 3395.0, 4216.0, 6611.0],
+        'Доза': [20.9, 41.7, 66.7, 83.3, 132.0, 166.0, 261.0]
     }
 }
 
@@ -58,11 +58,10 @@ iqf_from_bright_interpolator = LinearNDInterpolator(points_bright_kv, Y_iqf)
 iqf_dose_interpolator = LinearNDInterpolator(points_mas_kv, Y_iqf_dose)
 
 # Создание сеток
-mas_grid = np.linspace(0.1, 1.25, 100)
+mas_grid = np.linspace(min([value for key in data for value in data[key]['мАс']]), max([value for key in data for value in data[key]['мАс']]), 100)
 kv_grid = np.linspace(100, 120, 100)
 MAS_grid, KV_grid = np.meshgrid(mas_grid, kv_grid)
-
-bright_grid = np.linspace(390, 4400, 100)
+bright_grid = np.linspace(min([value for key in data for value in data[key]['Яркость']])-50, max([value for key in data for value in data[key]['Яркость']])+50, 100)
 BRIGHT_grid, KV_grid2 = np.meshgrid(bright_grid, kv_grid)
 
 # Вычисление значений на сетках
@@ -97,7 +96,7 @@ ax1.set_xlabel('мАс')
 ax1.set_ylabel('кВ')
 ax1.set_title('IQFinv = f(мАс, кВ)')
 ax1.set_ylim(99, 121)
-ax1.set_xlim(0.05, 1.3)
+ax1.set_xlim(0.05, max([value for key in data for value in data[key]['мАс']]))
 plt.colorbar(im1, ax=ax1, label='IQFinv')
 plt.tight_layout()
 
@@ -110,7 +109,7 @@ ax2.set_xlabel('Яркость')
 ax2.set_ylabel('кВ')
 ax2.set_title('IQFinv = f(яркость, кВ)')
 ax2.set_ylim(99, 121)
-ax2.set_xlim(350, 4500)
+ax2.set_xlim(min([value for key in data for value in data[key]['Яркость']])-50, max([value for key in data for value in data[key]['Яркость']])+50)
 plt.colorbar(im2, ax=ax2, label='IQFinv')
 plt.tight_layout()
 
@@ -123,7 +122,7 @@ ax3.set_xlabel('мАс')
 ax3.set_ylabel('кВ')
 ax3.set_title('IQFinv/доза = f(мАс, кВ)')
 ax3.set_ylim(99, 121)
-ax3.set_xlim(0.05, 1.3)
+ax3.set_xlim(0.05, max([value for key in data for value in data[key]['мАс']]))
 plt.colorbar(im3, ax=ax3, label='IQFinv/доза')
 plt.tight_layout()
 

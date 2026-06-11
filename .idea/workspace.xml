@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63014f92-171d-4ea5-971d-da8d6eb5e95e" name="Changes" comment="run AEC_grapher3">
+    <list default="true" id="63014f92-171d-4ea5-971d-da8d6eb5e95e" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/AEC_10mm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AEC_18mm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xls_converter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AEC_grapher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AEC_grapher3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AEC_5mm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AEC_grapher_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AEC_grapher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +51,14 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.AEC_10mm.executor": "Run",
+    "Python.AEC_18mm.executor": "Run",
+    "Python.AEC_5mm.executor": "Run",
     "Python.AEC_grapher.executor": "Run",
     "Python.AEC_grapher3.executor": "Run",
     "Python.AEC_grapher_2.executor": "Run",
     "Python.AEC_grapher_3.executor": "Run",
+    "Python.xls_converter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -96,13 +104,22 @@
       <option name="project" value="LOCAL" />
       <updated>1780649792535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1780656694063</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780656694063</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added grapher" />
     <MESSAGE value="added grapher2" />
     <MESSAGE value="run AEC_grapher3" />
-    <option name="LAST_COMMIT_MESSAGE" value="run AEC_grapher3" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
